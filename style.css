@@ -5,6 +5,9 @@
   background-color: #00693e;
 
 }
+body{
+	height: 100%;
+}
 
 .navbar-inverse .navbar-nav > li > a{
   color: white;
@@ -30,7 +33,7 @@ footer {
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: cover;
 }
 
