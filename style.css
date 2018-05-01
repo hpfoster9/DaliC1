@@ -64,8 +64,10 @@ p{
 	font-size: 20px;
 }
 
-video{
+iframe{
 	padding-bottom: 150px;
+	width: auto;
+	height: auto;
 	padding-top: 50px;
 }
 
