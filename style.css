@@ -1,13 +1,16 @@
+body{
+	height: 100%;
+	font-family: Trebuchet MS;
+}
+
 .navbar {
   margin-bottom: 0;
   border-radius: 0;
   border-color: #00693e;
   background-color: #00693e;
+  font-family: Trebuchet MS;
+}
 
-}
-body{
-	height: 100%;
-}
 
 .navbar-inverse .navbar-nav > li > a{
   color: white;
@@ -19,13 +22,6 @@ body{
   color: white;
 }
 
-
-/* Add a gray background color and some padding to the footer */
-footer {
-  background-color: #f2f2f2;
-  padding: 25px;
-}
-
 .jumbotron{
 	/* The image used */
     background-image: url("para2.jpg");
@@ -33,11 +29,47 @@ footer {
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
-    background-repeat: repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.para{
+	/* The image used */
+    background-image: url("para2.jpg");
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.para2{
+	/* The image used */
+    background-image: url("para3.jpg");
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
 }
 
 .bio{
-	width: 40%;
+	width: 50%;
 	margin: 0 auto;
 }
+
+p{
+	font-size: 20px;
+}
+
+video{
+	padding-bottom: 150px;
+	padding-top: 50px;
+}
+
+video::-webkit-media-controls-fullscreen-button {
+    display: none;
+}
+

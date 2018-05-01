@@ -9,7 +9,6 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link rel = "stylesheet" type = "text/css" href = "style.css" />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.16/p5.min.js"></script>
-  <script src="Pindex.js"></script>
 
 </head>
 <body>
@@ -28,6 +27,7 @@
       <ul class="nav navbar-nav">
         <li class="myNavL"><a href="index.html">Who is this boy??</a></li>
         <li class="myNavL active"><a href="projects.html">What stuff has he done?</a></li>
+        <li class="myNavL"><a href="resume.html">Resume!</a></li>
         <li class="myNavL"><a href="insta.html">Some sweet insta pics</a></li>
       </ul>
     </div>
@@ -37,33 +37,66 @@
 <div class="jumbotron">
   <div class="container text-center">
     <h1>Projects</h1>      
-    <p class="bio">Here are some projects I've dabbled with during my freetime throughout high school and the beginning of college.</p>
+    <p class="bio">Here are some projects I've been working on since high school! While I probably should have been doing homework instead of coding, I hope you will find some entertainment from them!</p>
   </div>
 </div>
 
 
 <div class="container-fluid bg-3 text-center">    
-  <h3>Some of my Work</h3><br>
-  <div class="row">
-    <div class="col-sm-4">
-      <p>Some text..</p>
-      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-    </div>
-    <div class="col-sm-4"> 
-      <p>Some text..</p>
-      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-    </div>
-    <div class="col-sm-4"> 
-      <p>Some text..</p>
-      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-    </div>
+  <h2>The Ghost Game</h2>
+  <p style="width: 50%;" class="center-block">For my High School Graduation project I spent 6 weeks developing this Java Servlet, JSP, and JQuery based word game. The game uses md5 hashing to generate unique game ids and basic bootstrap to style the page. I haven't take an HTML or CSS class and so try not to be too tough on my high school css skills :p Anywho, if you would like to play, my website is active <a href="http://the-ghost-game.herokuapp.com">here</a> (also I'm hosting with Heroku for free so it may take ~15 seconds to load initially)</p>
+  <br>
+  <div class="row para2">
+      <video class="center-block" width="70%" controls>
+        <source src="projects/ghost.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+      </video>
   </div>
-</div><br>
-<br><br>
-
-<footer class="container-fluid text-center">
-  <p>Footer Text</p>
-</footer>
-
+  <h2>Sierpinski Pyramid</h2>
+  <p style="width: 50%;" class="center-block">
+    During the fall term, while I was supposed to be studying for my Ling 1 exam, I decided it would be a perfect time to learn Processing 3 and build some fractals! Below is my first creation: a spinoff of the classic Sierpinski triangle... but now as a pyramid!
+  </p>
+  <br>
+  <div class="row para">
+      <video class="center-block" width="70%" controls>
+        <source src="projects/pyramid.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+      </video>
+  </div>
+  <h2>Dragon Curve</h2>
+  <p style="width: 50%;" class="center-block">
+    Furthering the previous Processing project, I decided to try to make a 3D version of the classic 'Dragon Curve' fractal. I have created a function that generates a curve based on the degrees rotated around the vertical axis. Additional fractals make the project a bit messy and so I have used a 90 degree interval between fractals.
+  </p>
+  <br>
+  <div class="row para2">
+      <video class="center-block" width="70%" controls>
+        <source src="projects/dragon.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+      </video>
+  </div>
+  <h2>Soph</h2>
+  <p style="width: 50%;" class="center-block">
+    I have been dating Sophie Blue since high school and for her birthday at the begining of Senior year I decided to create my most ambitious project. Having never even heard the words "runtime complexity", this program is not the most efficient. However, it successfully compiles and anaylizes all of the texts we've sent to each other throughout the year. The main wordcloud was made with the amazing customized worldcloud API found <a href="https://timdream.org/wordcloud2.js/#love">here</a>. Also yes, I did get Sophie's permission before posting this video :)
+  </p>
+  <br>
+  <div class="row para">
+      <video class="center-block" width="70%" controls>
+        <source src="projects/soph.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+      </video>
+  </div>
+  <h2>Back Together</h2>
+  <p style="width: 50%;" class="center-block">
+    Sophie is currently at Princeton University. While the long distance can be tough, I made a simple database integrated calender website to keep track of the next time one of us visits each other. Also I've added a Dragon Curve widget with a gradient between the main color schemes of the previous website to make the website more visually appealing. 
+  </p>
+  <br>
+  <p></p>
+  <div class="row para2">
+      <video class="center-block" width="70%" controls>
+        <source src="projects/backtogether.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+      </video>
+  </div>
+</div>
 </body>
 </html>
